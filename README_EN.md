@@ -1,6 +1,6 @@
 # 🐙 GitHub Practice
 
-🇯🇵 [日本語版はこちら](README.md)
+🇯🇵 [日本語版はこちら](README.md) ｜ 🇨🇳 [中文版在此](README_CN.md)
 
 This repository is for practicing the GitHub workflow used in our lab.
 
