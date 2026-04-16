@@ -84,16 +84,16 @@ git commit -m "Add func_mtanaka"
 
 ---
 
-### Step 6 : Merge into the local `mtanaka` branch and push to the `[name]` branch
+### Step 6 : Merge into the local `[name]` branch and push to the `[name]` branch
 
-First, merge your changes into the local `mtanaka` branch.
+First, merge your changes into the local `[name]` branch.
 
 ```bash
 git checkout mtanaka
 git merge mtanaka_func
 ```
 
-Then, push to the remote `mtanaka` branch.
+Then, push to the remote `[name]` branch.
 
 ```bash
 git push origin mtanaka
@@ -178,14 +178,14 @@ git commit -m "Add func_mtanaka to main.py"
 
 ### Step 12 : Push to the `[name]` branch
 
-First, merge your changes into the local `mtanaka` branch.
+First, merge your changes into the local `[name]` branch.
 
 ```bash
 git checkout mtanaka
 git merge mtanaka_main
 ```
 
-Then, push to the remote `mtanaka` branch.
+Then, push to the remote `[name]` branch.
 
 ```bash
 git push origin mtanaka
