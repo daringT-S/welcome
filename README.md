@@ -84,16 +84,16 @@ git commit -m "Add func_mtanaka"
 
 ---
 
-### Step 6 : ローカルの `mtanaka` ブランチに変更をマージして、`[name]` ブランチに push する
+### Step 6 : ローカルの `[name]` ブランチに変更をマージして、`[name]` ブランチに push する
 
-まず、ローカルの `mtanaka` ブランチに変更をマージする。
+まず、ローカルの `[name]` ブランチに変更をマージする。
 
 ```bash
 git checkout mtanaka
 git merge mtanaka_func
 ```
 
-次に、リモートの `mtanaka` ブランチに push する。
+次に、リモートの `[name]` ブランチに push する。
 
 ```bash
 git push origin mtanaka
@@ -178,14 +178,14 @@ git commit -m "Add func_mtanaka to main.py"
 
 ### Step 12 : `[name]` ブランチに push する
 
-まず、ローカルの `mtanaka` ブランチに変更をマージする。
+まず、ローカルの `[name]` ブランチに変更をマージする。
 
 ```bash
 git checkout mtanaka
 git merge mtanaka_main
 ```
 
-次に、リモートの `mtanaka` ブランチに push する。
+次に、リモートの `[name]` ブランチに push する。
 
 ```bash
 git push origin mtanaka
