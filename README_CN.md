@@ -84,16 +84,16 @@ git commit -m "Add func_mtanaka"
 
 ---
 
-### Step 6 : 合并到本地 `[name]` 分支并 push 到远程
+### Step 6 : 合并到本地 `mtanaka` 分支并 push 到远程
 
-首先，将更改合并到本地 `[name]` 分支。
+首先，将更改合并到本地 `mtanaka` 分支。
 
 ```bash
 git checkout mtanaka
 git merge mtanaka_func
 ```
 
-然后，push 到远程 `[name]` 分支。
+然后，push 到远程 `mtanaka` 分支。
 
 ```bash
 git push origin mtanaka
@@ -176,16 +176,16 @@ git commit -m "Add func_mtanaka to main.py"
 
 ---
 
-### Step 12 : 合并到本地 `[name]` 分支并 push 到远程
+### Step 12 : 合并到本地 `mtanaka` 分支并 push 到远程
 
-首先，将更改合并到本地 `[name]` 分支。
+首先，将更改合并到本地 `mtanaka` 分支。
 
 ```bash
 git checkout mtanaka
 git merge mtanaka_main
 ```
 
-然后，push 到远程 `[name]` 分支。
+然后，push 到远程 `mtanaka` 分支。
 
 ```bash
 git push origin mtanaka
