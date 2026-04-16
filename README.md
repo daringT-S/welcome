@@ -1,6 +1,6 @@
 # 🐙 GitHub 運用練習
 
-🇺🇸 [English version here](README_EN.md)
+🇺🇸 [English version here](README_EN.md) ｜ 🇨🇳 [中文版在此](README_CN.md)
 
 本リポジトリは、研究室の GitHub 運用フローを練習するためのリポジトリです。
 
