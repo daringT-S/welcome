@@ -50,8 +50,8 @@ GitHub の Web 画面から `develop` ブランチをもとに自分の名前の
 ### Step 3 : リモートの `[name]` ブランチを取得し、`[name]_[feature]` ブランチを作成する（ローカル操作）
 
 ```bash
+git pull origin mtanaka:mtanaka
 git checkout mtanaka
-git pull origin mtanaka
 git checkout -b mtanaka_func
 ```
 
@@ -84,7 +84,7 @@ git commit -m "Add func_mtanaka"
 
 ---
 
-### Step 6 : `[name]` ブランチに push する
+### Step 6 : ローカルの `mtanaka` ブランチに変更をマージして、`[name]` ブランチに push する
 
 まず、ローカルの `mtanaka` ブランチに変更をマージする。
 

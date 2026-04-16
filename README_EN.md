@@ -50,8 +50,8 @@ Create your personal branch from `develop` on the GitHub web interface.
 ### Step 3 : Fetch the remote `[name]` branch and create `[name]_[feature]` branch (Local)
 
 ```bash
+git pull origin mtanaka:mtanaka
 git checkout mtanaka
-git pull origin mtanaka
 git checkout -b mtanaka_func
 ```
 
@@ -84,7 +84,7 @@ git commit -m "Add func_mtanaka"
 
 ---
 
-### Step 6 : Push to the `[name]` branch
+### Step 6 : Merge into the local `mtanaka` branch and push to the `[name]` branch
 
 First, merge your changes into the local `mtanaka` branch.
 
