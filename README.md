@@ -84,7 +84,7 @@ git commit -m "Add func_mtanaka"
 
 ---
 
-### Step 6 : `[name]` ブランチに push する
+### Step 6 : ローカルの `mtanaka` ブランチに変更をマージして、`[name]` ブランチに push する
 
 まず、ローカルの `mtanaka` ブランチに変更をマージする。
 

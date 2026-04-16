@@ -84,7 +84,7 @@ git commit -m "Add func_mtanaka"
 
 ---
 
-### Step 6 : Push to the `[name]` branch
+### Step 6 : Merge into the local `mtanaka` branch and push to the `[name]` branch
 
 First, merge your changes into the local `mtanaka` branch.
 
