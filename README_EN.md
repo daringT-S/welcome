@@ -50,8 +50,8 @@ Create your personal branch from `develop` on the GitHub web interface.
 ### Step 3 : Fetch the remote `[name]` branch and create `[name]_[feature]` branch (Local)
 
 ```bash
+git pull origin mtanaka:mtanaka
 git checkout mtanaka
-git pull origin mtanaka
 git checkout -b mtanaka_func
 ```
 
