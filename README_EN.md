@@ -4,6 +4,9 @@
 
 This repository is for practicing the GitHub workflow used in our lab.
 
+> [!IMPORTANT]
+> Before you start, please read the **[GitHub Operation Rules](RULES_EN.md)** first.
+
 ## Branch Structure
 
 | Branch Name | Role |
