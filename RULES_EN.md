@@ -45,9 +45,13 @@ How you develop on the local `[name]` branch is up to you.
 ## 🙋 When a Student Joins the Repository
 
 1. Create a `[name]` branch (remote) from `develop`
+2. Clone only the `[name]` branch (remote)
 
-```
-e.g.) mtanaka
+
+e.g.) [name] | mtanaka
+
+```bash
+git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
 ```
 
 ---
