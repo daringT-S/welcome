@@ -45,10 +45,15 @@
 ## 🙋 学生がリポジトリに参加するとき
 
 1. `develop` から `[name]` ブランチ（リモート）を作成する
+2. `[name]` ブランチ（リモート）だけcloneする
 
+
+例）[name] | mtanaka
+
+```bash
+git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
 ```
-例）mtanaka
-```
+
 
 ---
 

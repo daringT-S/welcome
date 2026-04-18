@@ -28,18 +28,7 @@ This repository is for practicing the GitHub workflow used in our lab.
 
 ## 🚀 Steps
 
-### Step 1 : Clone the repository locally
-
-```bash
-git clone git@github.com:visionimageprocessing/welcome.git
-cd welcome
-```
-
-> 💡 Organization: `visionimageprocessing`, Repository: `welcome`
-
----
-
-### Step 2 : Create your `[name]` branch (Web)
+### Step 1 : Create your `[name]` branch (Web)
 
 Create your personal branch from `develop` on the GitHub web interface.
 
@@ -50,7 +39,19 @@ Create your personal branch from `develop` on the GitHub web interface.
 
 ---
 
-### Step 3 : Fetch the remote `[name]` branch and create `[name]_[feature]` branch (Local)
+### Step 2 : Clone the `[name]` branch of the repository locally
+
+```bash
+git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
+cd welcome
+```
+
+> 💡 Organization: `visionimageprocessing`, Repository: `welcome`
+> 💡 Replace `[name]` with your own name
+
+---
+
+### Step 3 : Create the `[name]_[feature]` branch (Local)
 
 ```bash
 git pull origin mtanaka:mtanaka
@@ -87,7 +88,7 @@ git commit -m "Add func_mtanaka"
 
 ---
 
-### Step 6 : Merge into the local `[name]` branch and push to the `[name]` branch
+### Step 6 : Merge into the local `[name]` branch and push to the remote `[name]` branch
 
 First, merge your changes into the local `[name]` branch.
 
@@ -121,6 +122,7 @@ git branch -d mtanaka_func
 ### Step 8 : Sync `[name]` branch with the latest `develop` (Web + Local)
 
 Before starting the next development task, pull the latest changes from `develop` into your `[name]` branch.
+Nothing may happen in this operation, but please do it as practice.
 
 **Web:** Create a Pull Request from `develop` → `mtanaka` on the GitHub web interface and merge it.
 
@@ -179,7 +181,7 @@ git commit -m "Add func_mtanaka to main.py"
 
 ---
 
-### Step 12 : Push to the `[name]` branch
+### Step 12 : Merge into the local `[name]` branch and push to the remote `[name]` branch
 
 First, merge your changes into the local `[name]` branch.
 

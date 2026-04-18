@@ -28,18 +28,7 @@
 
 ## 🚀 手順
 
-### Step 1 : リポジトリをローカルにクローンする
-
-```bash
-git clone git@github.com:visionimageprocessing/welcome.git
-cd welcome
-```
-
-> 💡 Organization名は `visionimageprocessing`、リポジトリ名は `welcome`
-
----
-
-### Step 2 : `[name]` ブランチを作成する（Web操作）
+### Step 1 : `[name]` ブランチを作成する（Web操作）
 
 GitHub の Web 画面から `develop` ブランチをもとに自分の名前のブランチを作成する。
 
@@ -50,7 +39,20 @@ GitHub の Web 画面から `develop` ブランチをもとに自分の名前の
 
 ---
 
-### Step 3 : リモートの `[name]` ブランチを取得し、`[name]_[feature]` ブランチを作成する（ローカル操作）
+### Step 2 : リポジトリの`[name]` ブランチをローカルにクローンする
+
+```bash
+git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
+cd welcome
+```
+
+> 💡 Organization名は `visionimageprocessing`、リポジトリ名は `welcome`
+> 💡 `[name]` の部分は自分の名前に置き換えること
+
+
+---
+
+### Step 3 : `[name]_[feature]` ブランチを作成する（ローカル操作）
 
 ```bash
 git pull origin mtanaka:mtanaka
@@ -121,6 +123,7 @@ git branch -d mtanaka_func
 ### Step 8 : `develop` から `[name]` ブランチを最新にする（Web操作 + ローカル操作）
 
 次の開発を始める前に、`develop` の最新内容を `[name]` ブランチに取り込む。
+なお、今回の操作ではおそらく何もおこらない。でも、最新内容を取り込む必要はあるので、練習として行う。
 
 **Web操作：** GitHub の Web 画面から `develop` → `mtanaka` への Pull Request を作成してマージする。
 

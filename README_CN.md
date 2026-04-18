@@ -28,18 +28,7 @@
 
 ## 🚀 操作步骤
 
-### Step 1 : 将仓库克隆到本地
-
-```bash
-git clone git@github.com:visionimageprocessing/welcome.git
-cd welcome
-```
-
-> 💡 Organization 名称为 `visionimageprocessing`，仓库名称为 `welcome`
-
----
-
-### Step 2 : 创建 `[name]` 分支（Web 操作）
+### Step 1 : 创建 `[name]` 分支（Web 操作）
 
 在 GitHub 网页界面上，从 `develop` 分支创建自己的个人分支。
 
@@ -50,7 +39,19 @@ cd welcome
 
 ---
 
-### Step 3 : 获取远程 `[name]` 分支并创建 `[name]_[feature]` 分支（本地操作）
+### Step 2 : 将仓库的 `[name]` 分支克隆到本地
+
+```bash
+git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
+cd welcome
+```
+
+> 💡 Organization 名称为 `visionimageprocessing`，仓库名称为 `welcome`
+> 💡 将 `[name]` 替换为自己的名字
+
+---
+
+### Step 3 : 创建 `[name]_[feature]` 分支（本地操作）
 
 ```bash
 git pull origin mtanaka:mtanaka
@@ -87,7 +88,7 @@ git commit -m "Add func_mtanaka"
 
 ---
 
-### Step 6 : 合并到本地 `[name]` 分支并 push 到远程
+### Step 6 : 合并到本地 `[name]` 分支并 push 到远程 `[name]` 分支
 
 首先，将更改合并到本地 `[name]` 分支。
 
@@ -121,6 +122,7 @@ git branch -d mtanaka_func
 ### Step 8 : 将 `[name]` 分支与最新的 `develop` 同步（Web 操作 + 本地操作）
 
 在开始下一个开发任务之前，将 `develop` 的最新内容合并到 `[name]` 分支。
+此次操作可能不会产生任何变化，但请作为练习进行操作。
 
 **Web 操作：** 在 GitHub 网页界面创建 `develop` → `mtanaka` 的 Pull Request 并合并。
 
@@ -179,7 +181,7 @@ git commit -m "Add func_mtanaka to main.py"
 
 ---
 
-### Step 12 : 合并到本地 `[name]` 分支并 push 到远程
+### Step 12 : 合并到本地 `[name]` 分支并 push 到远程 `[name]` 分支
 
 首先，将更改合并到本地 `[name]` 分支。
 

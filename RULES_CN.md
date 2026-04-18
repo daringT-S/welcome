@@ -45,9 +45,13 @@
 ## 🙋 学生加入仓库时
 
 1. 从 `develop` 创建 `[name]` 分支（远程）
+2. 只克隆 `[name]` 分支（远程）
 
-```
-例）mtanaka
+
+例）[name] | mtanaka
+
+```bash
+git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
 ```
 
 ---
@@ -75,6 +79,6 @@
 2. 仓库管理员审查并合并 Pull Request
 
 > [!WARNING]
-> 请勿直接 push 到 `develop` 分支！必须通过 Pull Request 提交！
+> 请勿直接 push 到 `develop` 分支！
 
 ---
