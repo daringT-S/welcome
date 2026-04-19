@@ -7,6 +7,9 @@ This repository is for practicing the GitHub workflow used in our lab.
 > [!IMPORTANT]
 > Before you start, please read the **[GitHub Operation Rules](RULES_EN.md)** first.
 
+> [!NOTE]
+> If you want to understand the Python project structure used in this repository, check out 🐍 **[Python Project Structure Guide](PROJECT_EN.md)** as well!
+
 > [!TIP]
 > This repository's workflow is based on the **git-flow** branching strategy.
 > If you're curious about why the rules are structured the way they are, check out 🌊 **[Introduction to git-flow](FLOW_EN.md)** as well!

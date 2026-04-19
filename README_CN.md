@@ -7,6 +7,9 @@
 > [!IMPORTANT]
 > 开始操作前，请务必先阅读 **[GitHub 操作规范](RULES_CN.md)**。
 
+> [!NOTE]
+> 想了解本仓库所使用的 Python 项目结构，欢迎同时阅读 🐍 **[Python 项目结构指南](PROJECT_CN.md)**！
+
 > [!TIP]
 > 本仓库的操作规范以 **git-flow** 分支策略为基础。
 > 如果你想了解为什么要这样设计操作规范，推荐同时阅读 🌊 **[git-flow 入门推荐](FLOW_CN.md)**！
