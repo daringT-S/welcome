@@ -1,11 +1,15 @@
 # 🐙 GitHub 運用練習
 
-🇺🇸 [English version here](README_EN.md) ｜ 🇨🇳 [中文版在此](README_CN.md) ｜ 🌊 [git-flow のすすめ](FLOW_JP.md)
+🇺🇸 [English version here](README_EN.md) ｜ 🇨🇳 [中文版在此](README_CN.md)
 
 本リポジトリは、研究室の GitHub 運用フローを練習するためのリポジトリです。
 
 > [!IMPORTANT]
 > 作業を始める前に、必ず **[GitHub 運用ルール](RULES_JP.md)** を読んでください。
+
+> [!TIP]
+> 本リポジトリの運用は **git-flow** の考え方をベースにしています。
+> なぜこのような運用ルールになっているのか気になる方は、🌊 **[git-flow のすすめ](FLOW_JP.md)** もあわせて読んでみてください！
 
 ## ブランチ構成
 

@@ -1,11 +1,15 @@
 # 🐙 GitHub Practice
 
-🇯🇵 [日本語版はこちら](README.md) ｜ 🇨🇳 [中文版在此](README_CN.md) ｜ 🌊 [Introduction to git-flow](FLOW_EN.md)
+🇯🇵 [日本語版はこちら](README.md) ｜ 🇨🇳 [中文版在此](README_CN.md)
 
 This repository is for practicing the GitHub workflow used in our lab.
 
 > [!IMPORTANT]
 > Before you start, please read the **[GitHub Operation Rules](RULES_EN.md)** first.
+
+> [!TIP]
+> This repository's workflow is based on the **git-flow** branching strategy.
+> If you're curious about why the rules are structured the way they are, check out 🌊 **[Introduction to git-flow](FLOW_EN.md)** as well!
 
 ## Branch Structure
 

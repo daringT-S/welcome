@@ -1,11 +1,15 @@
 # 🐙 GitHub 操作练习
 
-🇯🇵 [日本語版はこちら](README.md) ｜ 🇺🇸 [English version here](README_EN.md) ｜ 🌊 [git-flow 入门推荐](FLOW_CN.md)
+🇯🇵 [日本語版はこちら](README.md) ｜ 🇺🇸 [English version here](README_EN.md)
 
 本仓库用于练习研究室的 GitHub 操作流程。
 
 > [!IMPORTANT]
 > 开始操作前，请务必先阅读 **[GitHub 操作规范](RULES_CN.md)**。
+
+> [!TIP]
+> 本仓库的操作规范以 **git-flow** 分支策略为基础。
+> 如果你想了解为什么要这样设计操作规范，推荐同时阅读 🌊 **[git-flow 入门推荐](FLOW_CN.md)**！
 
 ## 分支结构
 
