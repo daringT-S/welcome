@@ -5,12 +5,6 @@
 pip install torch torchvision pytest
 ```
 
-| | |
-|---|---|
-| `tests/` | テスト |
-| `datasets/` | データセット関連の共通パッケージ |
-| `models/` | モデル定義の共通パッケージ |
-
 ## パッケージフォルダ
 
 | | |
