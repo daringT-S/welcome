@@ -7,6 +7,10 @@
 > [!IMPORTANT]
 > 作業を始める前に、必ず **[GitHub 運用ルール](RULES_JP.md)** を読んでください。
 
+> [!TIP]
+> 本リポジトリの運用は **git-flow** の考え方をベースにしています。
+> なぜこのような運用ルールになっているのか気になる方は、🌊 **[git-flow のすすめ](FLOW_JP.md)** もあわせて読んでみてください！
+
 ## ブランチ構成
 
 | ブランチ名 | 役割 |
@@ -43,7 +47,7 @@ GitHub の Web 画面から `develop` ブランチをもとに自分の名前の
 
 ```bash
 git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
-cd welcome
+cd welcome/src
 ```
 
 > 💡 Organization名は `visionimageprocessing`、リポジトリ名は `welcome`
@@ -226,4 +230,4 @@ GitHub の Web 画面から Pull Request を作成する。
 5. リポジトリ管理者のマージを待つ
 
 > [!WARNING]
-> `develop` ブランチへ直接 push しないこと！必ず Pull Request を通すこと！
+> `develop` ブランチへ直接 push しないこ

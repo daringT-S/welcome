@@ -7,6 +7,10 @@
 > [!IMPORTANT]
 > 开始操作前，请务必先阅读 **[GitHub 操作规范](RULES_CN.md)**。
 
+> [!TIP]
+> 本仓库的操作规范以 **git-flow** 分支策略为基础。
+> 如果你想了解为什么要这样设计操作规范，推荐同时阅读 🌊 **[git-flow 入门推荐](FLOW_CN.md)**！
+
 ## 分支结构
 
 | 分支名 | 作用 |
@@ -43,7 +47,7 @@
 
 ```bash
 git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
-cd welcome
+cd welcome/src
 ```
 
 > 💡 Organization 名称为 `visionimageprocessing`，仓库名称为 `welcome`
@@ -225,4 +229,4 @@ git branch -d mtanaka_main
 5. 等待仓库管理员合并
 
 > [!WARNING]
-> 请勿直接 push 到 `develop` 分支！必须通过 Pull Request 提交！
+> 请勿直接 push 到 `develop` 

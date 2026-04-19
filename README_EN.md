@@ -7,6 +7,10 @@ This repository is for practicing the GitHub workflow used in our lab.
 > [!IMPORTANT]
 > Before you start, please read the **[GitHub Operation Rules](RULES_EN.md)** first.
 
+> [!TIP]
+> This repository's workflow is based on the **git-flow** branching strategy.
+> If you're curious about why the rules are structured the way they are, check out 🌊 **[Introduction to git-flow](FLOW_EN.md)** as well!
+
 ## Branch Structure
 
 | Branch Name | Role |
@@ -43,7 +47,7 @@ Create your personal branch from `develop` on the GitHub web interface.
 
 ```bash
 git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
-cd welcome
+cd welcome/src
 ```
 
 > 💡 Organization: `visionimageprocessing`, Repository: `welcome`
@@ -225,4 +229,4 @@ Create a Pull Request from the GitHub web interface.
 5. Wait for the repository administrator to merge
 
 > [!WARNING]
-> Do NOT push directly to the `develop` branch! Always go through a Pull Request!
+> Do NOT push directly to the `dev
