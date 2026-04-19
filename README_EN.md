@@ -1,6 +1,6 @@
 # 🐙 GitHub Practice
 
-🇯🇵 [日本語版はこちら](README.md) ｜ 🇨🇳 [中文版在此](README_CN.md)
+🇯🇵 [日本語版はこちら](README.md) ｜ 🇨🇳 [中文版在此](README_CN.md) ｜ 🌊 [Introduction to git-flow](FLOW_EN.md)
 
 This repository is for practicing the GitHub workflow used in our lab.
 
@@ -43,7 +43,7 @@ Create your personal branch from `develop` on the GitHub web interface.
 
 ```bash
 git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
-cd welcome
+cd welcome/src
 ```
 
 > 💡 Organization: `visionimageprocessing`, Repository: `welcome`
@@ -225,4 +225,4 @@ Create a Pull Request from the GitHub web interface.
 5. Wait for the repository administrator to merge
 
 > [!WARNING]
-> Do NOT push directly to the `develop` branch! Always go through a Pull Request!
+> Do NOT push directly to the `dev

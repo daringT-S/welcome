@@ -1,5 +1,7 @@
 # 🐙 GitHub Operation Rules
 
+🇯🇵 [日本語版はこちら](RULES_JP.md) ｜ 🇨🇳 [中文版在此](RULES_CN.md)
+
 ## Branch Structure
 
 | Branch Name | Role |

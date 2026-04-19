@@ -1,6 +1,6 @@
 # 🐙 GitHub 運用練習
 
-🇺🇸 [English version here](README_EN.md) ｜ 🇨🇳 [中文版在此](README_CN.md)
+🇺🇸 [English version here](README_EN.md) ｜ 🇨🇳 [中文版在此](README_CN.md) ｜ 🌊 [git-flow のすすめ](FLOW_JP.md)
 
 本リポジトリは、研究室の GitHub 運用フローを練習するためのリポジトリです。
 
@@ -43,7 +43,7 @@ GitHub の Web 画面から `develop` ブランチをもとに自分の名前の
 
 ```bash
 git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
-cd welcome
+cd welcome/src
 ```
 
 > 💡 Organization名は `visionimageprocessing`、リポジトリ名は `welcome`
@@ -226,4 +226,4 @@ GitHub の Web 画面から Pull Request を作成する。
 5. リポジトリ管理者のマージを待つ
 
 > [!WARNING]
-> `develop` ブランチへ直接 push しないこと！必ず Pull Request を通すこと！
+> `develop` ブランチへ直接 push しないこ

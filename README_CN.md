@@ -1,6 +1,6 @@
 # 🐙 GitHub 操作练习
 
-🇯🇵 [日本語版はこちら](README.md) ｜ 🇺🇸 [English version here](README_EN.md)
+🇯🇵 [日本語版はこちら](README.md) ｜ 🇺🇸 [English version here](README_EN.md) ｜ 🌊 [git-flow 入门推荐](FLOW_CN.md)
 
 本仓库用于练习研究室的 GitHub 操作流程。
 
@@ -43,7 +43,7 @@
 
 ```bash
 git clone -b [name] --single-branch git@github.com:visionimageprocessing/welcome.git
-cd welcome
+cd welcome/src
 ```
 
 > 💡 Organization 名称为 `visionimageprocessing`，仓库名称为 `welcome`
@@ -225,4 +225,4 @@ git branch -d mtanaka_main
 5. 等待仓库管理员合并
 
 > [!WARNING]
-> 请勿直接 push 到 `develop` 分支！必须通过 Pull Request 提交！
+> 请勿直接 push 到 `develop` 

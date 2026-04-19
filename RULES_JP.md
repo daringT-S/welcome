@@ -1,5 +1,7 @@
 # 🐙 GitHub 運用ルール
 
+🇺🇸 [English version here](RULES_EN.md) ｜ 🇨🇳 [中文版在此](RULES_CN.md)
+
 ## ブランチ構成
 
 | ブランチ名 | 役割 |

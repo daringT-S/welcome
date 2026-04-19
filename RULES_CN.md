@@ -1,5 +1,7 @@
 # 🐙 GitHub 操作规范
 
+🇯🇵 [日本語版はこちら](RULES_JP.md) ｜ 🇺🇸 [English version here](RULES_EN.md)
+
 ## 分支结构
 
 | 分支名 | 作用 |
