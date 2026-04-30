@@ -7,6 +7,7 @@ from func_stsukioka import func_stsukioka
 from func_mofei import func_mofei
 from func_kmuto import func_kmuto
 from func_skobayashi import func_skobayashi
+from func_yyukimori import func_yyukimori
 
 
 print("2026")
@@ -19,3 +20,4 @@ func_stsukioka()
 func_mofei()
 func_kmuto()
 func_skobayashi()
+func_yyukimori()
