@@ -100,35 +100,31 @@ project-main:main     ← リリース・バックアップ
 
 ---
 
-## 4. Ruleset 設定
+## 4. ブランチ保護と運用ルール
 
-`project-main` の `main` および `develop` ブランチを保護するため、GitHub Ruleset を設定する。
+### 4.1 権限による実質的なブランチ保護
 
-### 4.1 設定対象
+`project-main` への Write 権限は `main-admin` チームのみが持つ。各ラボメンバーは Read 権限しか持たないため、**`project-main` への直接 push は権限上不可能**であり、PR を通じた貢献のみが許可される。
 
-| ブランチ | 保護内容 |
+これにより、GitHub の有料プランの Ruleset を使わなくても、以下の保護が実質的に担保される。
+
+| ブランチ | 直接 push できる人 | 保護の根拠 |
+|---|---|---|
+| `main` | `main-admin` チームのみ | Write 権限が `main-admin` のみに付与されているため |
+| `develop` | `main-admin` チームのみ | 同上 |
+| `lab-X` | `main-admin` チームのみ | 同上 |
+
+### 4.2 マージ権限
+
+| 操作 | 実施者 |
 |---|---|
-| `main` | PR 必須、直接 push 禁止 |
-| `develop` | PR 必須、直接 push 禁止 |
+| `project-lab-X:main` → `project-main:lab-X` への PR 作成 | 各ラボ管理者 |
+| `project-main:lab-X` → `project-main:develop` へのマージ | `main-admin` チームのみ |
+| `project-main:develop` → `project-main:main` へのマージ | `main-admin` チームのみ |
 
-### 4.2 Ruleset の設定手順
+### 4.3 運用上の注意
 
-1. `project-main` → **Settings** → **Rules** → **Rulesets** → **New ruleset** を開く
-2. 以下を設定する
-
-| 項目 | 設定値 |
-|---|---|
-| Ruleset name | `protect-main-develop` |
-| Enforcement status | Active |
-| Target branches | `main`, `develop` |
-| Restrict creations | ✅ |
-| Restrict deletions | ✅ |
-| Require a pull request before merging | ✅ |
-| Block force pushes | ✅ |
-
-3. **Bypass list** に `main-admin` チームを追加する（管理者は直接操作が可能）
-
-> 💡 Bypass list に追加することで、`main-admin` チームのメンバーは緊急時に直接操作できる。ただし通常運用では PR を通すこと。
+`main-admin` チーム内では、自分の PR を自分でマージすること（セルフマージ）が技術的には可能。これが唯一の抜け穴となるため、**`main-admin` チーム内での PR は必ず他のメンバーがレビュー・マージすること**を運用ルールとして徹底する。
 
 ---
 
