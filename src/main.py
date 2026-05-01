@@ -8,7 +8,7 @@ from func_mofei import func_mofei
 from func_kmuto import func_kmuto
 from func_skobayashi import func_skobayashi
 from func_yyukimori import func_yyukimori
-
+from func_htanimura import func_htanimura
 
 print("2026")
 func_mtanaka()
@@ -21,3 +21,4 @@ func_mofei()
 func_kmuto()
 func_skobayashi()
 func_yyukimori()
+func_htanimura()
